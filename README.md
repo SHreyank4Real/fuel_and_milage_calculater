@@ -1,6 +1,6 @@
 # D-Track (Fuel and Milage Calculater App)
 
-This README outlines the details of runnig and application and usage of code
+This README outlines the details of runnig the application and usage of code
 
 ## Prerequisites
 
