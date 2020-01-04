@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etFavFood"
+        android:layout_marginTop="23dp"
+        android:text="SAVE"
+        android:background="@drawable/rect"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:textColor="@color/gray"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="Meater Reading"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:background="@drawable/test"
+        android:ems="10"
+        android:hint="22567.2"
+        android:inputType="number"
+        android:paddingLeft="60dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etFirstName"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Total Amount"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:background="@drawable/test"
+        android:ems="10"
+        android:hint="500.00"
+        android:inputType="number"
+        android:paddingLeft="60dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etLastName"
+        android:layout_marginTop="26dp"
+        android:text="Fuel Price/leter"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etFavFood"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:background="@drawable/test"
+        android:ems="10"
+        android:hint="72.00"
+        android:inputType="number"
+        android:paddingLeft="60dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
